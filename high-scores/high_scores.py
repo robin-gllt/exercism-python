@@ -7,16 +7,12 @@ def personal_best(scores):
 
 
 def personal_top_three(scores):
-    scores.sort()
-    if len(scores) > 2:
-      return [scores[-1], scores[-2], scores[-3]]
-    elif len(scores) > 1 : 
-      return [scores[-1], scores[-2]]
-    else:
-      return [scores[-1]]
+    scores.sort(reverse=True)
+    return scores[0:3]
+
 
 
 # if __name__ == "__main__":
-#   print (personal_top_three([10]))
+#   print (personal_top_three([10,5,2,6]))
 
 
