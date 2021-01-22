@@ -46,8 +46,11 @@ if __name__ == "__main__":
     game.guess("h")
     game.guess("e")
     game.guess("l")
+    print (game.get_masked_word())
     game.guess("l")
     game.guess("o")    
     print(game.get_status())
     print (game.get_masked_word())
+
+    
     print(F"remaining guesses {game.remaining_guesses}")

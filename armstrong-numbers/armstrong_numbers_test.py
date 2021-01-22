@@ -36,5 +36,4 @@ class ArmstrongNumbersTest(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    print("hello world commit2")
     unittest.main()
