@@ -58,7 +58,7 @@ class BankAccount(object):
         return True
 
     def close(self):
-      
+      #test
         if not self.account_is_opened:
             raise ValueError("Account already closed")
         
