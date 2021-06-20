@@ -1,0 +1,1566 @@
+versions pytest-6.2.1, py-1.10.0, python-3.9.1.final.0
+cwd=D:\Drive\I.T\exercism\python\twelve-days
+args=('.\\twelve_days_test.py', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x00000153E39910A0>
+    pytest_plugin_registered [hook]
+        plugin: <Session twelve-days exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x00000153E39910A0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000153E3B3CE50>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000153E3B3CA90>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x00000153E39910A0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x00000153E3B3C520>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x00000153E39910A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x00000153E3B68E20>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=10 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x00000153E3B4D9D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp1252'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000153E3B3CE50>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000153E3B3CA90>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x00000153E3B3C520>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000153E3B45FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000153E3C79F70>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x00000153E39910A0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\mark\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\assertion\\__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x00000153E3B68E20>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=10 _state='suspended' tmpfile=<_io.TextIOWrapper name='<tempfile._TemporaryFileWrapper object at 0x00000153E3B4D9D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=6 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='cp1252'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x00000153E3B3CE50>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x00000153E3B3CA90>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x00000153E3B3C520>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x00000153E3B45FD0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x00000153E3C79F70>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x00000153E3B0CEE0>
+          manager: <_pytest.config.PytestPluginManager object at 0x00000153E39C5E80>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x00000153E39910A0>
+          startdir: D:\Drive\I.T\exercism\python\twelve-days
+      finish pytest_report_header --> [['rootdir: D:\\Drive\\I.T\\exercism\\python\\twelve-days'], ['using: pytest-6.2.1 pylib-1.10.0']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['.\\twelve_days_test.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('D:\\Drive\\I.T\\exercism\\python\\twelve-days\\twelve_days_test.py'), []) [collection]
+            pytest_collect_file [hook]
+                path: D:\Drive\I.T\exercism\python\twelve-days\twelve_days_test.py
+                parent: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: D:\Drive\I.T\exercism\python\twelve-days\twelve_days_test.py
+                  parent: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module twelve_days_test.py> [hook]
+            finish pytest_collect_file --> [<Module twelve_days_test.py>] [hook]
+          matchnodes [<Module twelve_days_test.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module twelve_days_test.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module twelve_days_test.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module twelve_days_test.py>
+      find_module called for: twelve_days_test [assertion]
+      matched test file (was specified on cmdline): 'D:\\Drive\\I.T\\exercism\\python\\twelve-days\\twelve_days_test.py' [assertion]
+      found cached rewritten pyc for D:\Drive\I.T\exercism\python\twelve-days\twelve_days_test.py [assertion]
+      early skip of rewriting module: unittest [assertion]
+      early skip of rewriting module: unittest.result [assertion]
+      early skip of rewriting module: unittest.util [assertion]
+      early skip of rewriting module: unittest.case [assertion]
+      early skip of rewriting module: difflib [assertion]
+      early skip of rewriting module: unittest.suite [assertion]
+      early skip of rewriting module: unittest.loader [assertion]
+      early skip of rewriting module: unittest.main [assertion]
+      early skip of rewriting module: unittest.runner [assertion]
+      early skip of rewriting module: unittest.signals [assertion]
+      early skip of rewriting module: twelve_days [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module twelve_days_test.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module twelve_days_test.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\robgu\\AppData\\Roaming\\Python\\Python39\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module twelve_days_test.py>
+            name: unittest
+            obj: <module 'unittest' from 'c:\\program files\\python39\\lib\\unittest\\__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module twelve_days_test.py>
+            name: recite
+            obj: <function recite at 0x00000153E3BBD670>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module twelve_days_test.py>
+            name: TwelveDaysTest
+            obj: <class 'twelve_days_test.TwelveDaysTest'>
+        finish pytest_pycollect_makeitem --> <UnitTestCase TwelveDaysTest> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'twelve_days_test.py' lenresult=1 outcome='passed'> [hook]
+    genitems <UnitTestCase TwelveDaysTest> [collection]
+      pytest_collectstart [hook]
+          collector: <UnitTestCase TwelveDaysTest>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <UnitTestCase TwelveDaysTest>
+      finish pytest_make_collect_report --> <CollectReport 'twelve_days_test.py::TwelveDaysTest' lenresult=15 outcome='passed'> [hook]
+    genitems <TestCaseFunction test_eighth_day_eight_maids_a_milking> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_eleventh_day_eleven_pipers_piping> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_fifth_day_five_gold_rings> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_fifth_day_five_gold_rings>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_fourth_day_four_calling_birds> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_fourth_day_four_calling_birds>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_ninth_day_nine_ladies_dancing> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_recites_first_three_verses_of_the_song> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_recites_the_whole_song> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_recites_the_whole_song>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_second_day_two_turtle_doves> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_second_day_two_turtle_doves>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_seventh_day_seven_swans_a_swimming> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_sixth_day_six_geese_a_laying> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_tenth_day_ten_lords_a_leaping> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_third_day_three_french_hens> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_third_day_three_french_hens>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <TestCaseFunction test_twelfth_day_twelve_drummers_drumming> [collection]
+      pytest_itemcollected [hook]
+          item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'twelve_days_test.py::TwelveDaysTest' lenresult=15 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'twelve_days_test.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x00000153E39910A0>
+          items: [<TestCaseFunction test_eighth_day_eight_maids_a_milking>, <TestCaseFunction test_eleventh_day_eleven_pipers_piping>, <TestCaseFunction test_fifth_day_five_gold_rings>, <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>, <TestCaseFunction test_fourth_day_four_calling_birds>, <TestCaseFunction test_ninth_day_nine_ladies_dancing>, <TestCaseFunction test_recites_first_three_verses_of_the_song>, <TestCaseFunction test_recites_the_whole_song>, <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>, <TestCaseFunction test_second_day_two_turtle_doves>, <TestCaseFunction test_seventh_day_seven_swans_a_swimming>, <TestCaseFunction test_sixth_day_six_geese_a_laying>, <TestCaseFunction test_tenth_day_ten_lords_a_leaping>, <TestCaseFunction test_third_day_three_french_hens>, <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+            startdir: D:\Drive\I.T\exercism\python\twelve-days
+            items: [<TestCaseFunction test_eighth_day_eight_maids_a_milking>, <TestCaseFunction test_eleventh_day_eleven_pipers_piping>, <TestCaseFunction test_fifth_day_five_gold_rings>, <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>, <TestCaseFunction test_fourth_day_four_calling_birds>, <TestCaseFunction test_ninth_day_nine_ladies_dancing>, <TestCaseFunction test_recites_first_three_verses_of_the_song>, <TestCaseFunction test_recites_the_whole_song>, <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>, <TestCaseFunction test_second_day_two_turtle_doves>, <TestCaseFunction test_seventh_day_seven_swans_a_swimming>, <TestCaseFunction test_sixth_day_six_geese_a_laying>, <TestCaseFunction test_tenth_day_ten_lords_a_leaping>, <TestCaseFunction test_third_day_three_french_hens>, <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session twelve-days exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=15>
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+          nextitem: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking
+            location: ('twelve_days_test.py', 78, 'TwelveDaysTest.test_eighth_day_eight_maids_a_milking')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_eighth_day_eight_maids_a_milking>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the eighth day of Christmas my true l[207 chars]ree.' != ['On the eighth day of Christmas my true [186 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+            nextitem: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eighth_day_eight_maids_a_milking>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking
+            location: ('twelve_days_test.py', 78, 'TwelveDaysTest.test_eighth_day_eight_maids_a_milking')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+          nextitem: <TestCaseFunction test_fifth_day_five_gold_rings>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping
+            location: ('twelve_days_test.py', 123, 'TwelveDaysTest.test_eleventh_day_eleven_pipers_piping')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the eleventh day of Christmas my true[282 chars]ree.' != ['On the eleventh day of Christmas my tru[252 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+            nextitem: <TestCaseFunction test_fifth_day_five_gold_rings>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_eleventh_day_eleven_pipers_piping>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping
+            location: ('twelve_days_test.py', 123, 'TwelveDaysTest.test_eleventh_day_eleven_pipers_piping')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_fifth_day_five_gold_rings>
+          nextitem: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings
+            location: ('twelve_days_test.py', 42, 'TwelveDaysTest.test_fifth_day_five_gold_rings')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_fifth_day_five_gold_rings>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the fifth day of Christmas my true lo[130 chars]ree.' != ['On the fifth day of Christmas my true l[118 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+            nextitem: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fifth_day_five_gold_rings>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings
+            location: ('twelve_days_test.py', 42, 'TwelveDaysTest.test_fifth_day_five_gold_rings')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+          nextitem: <TestCaseFunction test_fourth_day_four_calling_birds>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree
+            location: ('twelve_days_test.py', 8, 'TwelveDaysTest.test_first_day_a_partridge_in_a_pear_tree')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the first day of Christmas my true lo[44 chars]ree.' != ['On the first day of Christmas my true l[40 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+            nextitem: <TestCaseFunction test_fourth_day_four_calling_birds>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree
+            location: ('twelve_days_test.py', 8, 'TwelveDaysTest.test_first_day_a_partridge_in_a_pear_tree')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_fourth_day_four_calling_birds>
+          nextitem: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds
+            location: ('twelve_days_test.py', 32, 'TwelveDaysTest.test_fourth_day_four_calling_birds')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_fourth_day_four_calling_birds>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the fourth day of Christmas my true l[111 chars]ree.' != ['On the fourth day of Christmas my true [102 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+            nextitem: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_fourth_day_four_calling_birds>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds
+            location: ('twelve_days_test.py', 32, 'TwelveDaysTest.test_fourth_day_four_calling_birds')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+          nextitem: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing
+            location: ('twelve_days_test.py', 92, 'TwelveDaysTest.test_ninth_day_nine_ladies_dancing')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the ninth day of Christmas my true lo[230 chars]ree.' != ['On the ninth day of Christmas my true l[206 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+            nextitem: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_ninth_day_nine_ladies_dancing>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing
+            location: ('twelve_days_test.py', 92, 'TwelveDaysTest.test_ninth_day_nine_ladies_dancing')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+          nextitem: <TestCaseFunction test_recites_the_whole_song>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song
+            location: ('twelve_days_test.py', 158, 'TwelveDaysTest.test_recites_first_three_verses_of_the_song')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the third day of Christmas my true lo[87 chars]ree.' != ['O', 'O', 'O']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+            nextitem: <TestCaseFunction test_recites_the_whole_song>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_first_three_verses_of_the_song>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song
+            location: ('twelve_days_test.py', 158, 'TwelveDaysTest.test_recites_first_three_verses_of_the_song')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_recites_the_whole_song>
+          nextitem: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song
+            location: ('twelve_days_test.py', 166, 'TwelveDaysTest.test_recites_the_whole_song')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_recites_the_whole_song>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the twelfth day of Christmas my true [310 chars]ree.' != ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', [14 chars] 'O']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+            nextitem: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_the_whole_song>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song
+            location: ('twelve_days_test.py', 166, 'TwelveDaysTest.test_recites_the_whole_song')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+          nextitem: <TestCaseFunction test_second_day_two_turtle_doves>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song
+            location: ('twelve_days_test.py', 162, 'TwelveDaysTest.test_recites_three_verses_from_the_middle_of_the_song')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the sixth day of Christmas my true lo[153 chars]ree.' != ['O', 'O', 'O']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+            nextitem: <TestCaseFunction test_second_day_two_turtle_doves>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song
+            location: ('twelve_days_test.py', 162, 'TwelveDaysTest.test_recites_three_verses_from_the_middle_of_the_song')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_second_day_two_turtle_doves>
+          nextitem: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves
+            location: ('twelve_days_test.py', 15, 'TwelveDaysTest.test_second_day_two_turtle_doves')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_second_day_two_turtle_doves>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the second day of Christmas my true l[66 chars]ree.' != ['On the second day of Christmas my true [63 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+            nextitem: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_second_day_two_turtle_doves>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves
+            location: ('twelve_days_test.py', 15, 'TwelveDaysTest.test_second_day_two_turtle_doves')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+          nextitem: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming
+            location: ('twelve_days_test.py', 65, 'TwelveDaysTest.test_seventh_day_seven_swans_a_swimming')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the seventh day of Christmas my true [182 chars]ree.' != ['On the seventh day of Christmas my true[164 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+            nextitem: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_seventh_day_seven_swans_a_swimming>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming
+            location: ('twelve_days_test.py', 65, 'TwelveDaysTest.test_seventh_day_seven_swans_a_swimming')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+          nextitem: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying
+            location: ('twelve_days_test.py', 53, 'TwelveDaysTest.test_sixth_day_six_geese_a_laying')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the sixth day of Christmas my true lo[153 chars]ree.' != ['On the sixth day of Christmas my true l[138 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+            nextitem: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_sixth_day_six_geese_a_laying>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying
+            location: ('twelve_days_test.py', 53, 'TwelveDaysTest.test_sixth_day_six_geese_a_laying')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+          nextitem: <TestCaseFunction test_third_day_three_french_hens>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping
+            location: ('twelve_days_test.py', 107, 'TwelveDaysTest.test_tenth_day_ten_lords_a_leaping')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the tenth day of Christmas my true lo[254 chars]ree.' != ['On the tenth day of Christmas my true l[227 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+            nextitem: <TestCaseFunction test_third_day_three_french_hens>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_tenth_day_ten_lords_a_leaping>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping
+            location: ('twelve_days_test.py', 107, 'TwelveDaysTest.test_tenth_day_ten_lords_a_leaping')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_third_day_three_french_hens>
+          nextitem: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens
+            location: ('twelve_days_test.py', 23, 'TwelveDaysTest.test_third_day_three_french_hens')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_third_day_three_french_hens>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the third day of Christmas my true lo[87 chars]ree.' != ['On the third day of Christmas my true l[81 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+            nextitem: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_third_day_three_french_hens>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens
+            location: ('twelve_days_test.py', 23, 'TwelveDaysTest.test_third_day_three_french_hens')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming
+            location: ('twelve_days_test.py', 140, 'TwelveDaysTest.test_twelfth_day_twelve_drummers_drumming')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo AssertionError("'On the twelfth day of Christmas my true [310 chars]ree.' != ['On the twelfth day of Christmas my true[277 chars]ee.']") tblen=1>>
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_third_day_three_french_hens>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_tenth_day_ten_lords_a_leaping>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_sixth_day_six_geese_a_laying>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_seventh_day_seven_swans_a_swimming>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_second_day_two_turtle_doves>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_recites_three_verses_from_the_middle_of_the_song>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_recites_the_whole_song>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_recites_first_three_verses_of_the_song>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_ninth_day_nine_ladies_dancing>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_fourth_day_four_calling_birds>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_first_day_a_partridge_in_a_pear_tree>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_fifth_day_five_gold_rings>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_eleventh_day_eleven_pipers_piping>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='unittest_setUpClass_fixture_TwelveDaysTest' scope='class' baseid='twelve_days_test.py::TwelveDaysTest'>
+              request: <SubRequest 'unittest_setUpClass_fixture_TwelveDaysTest' for <TestCaseFunction test_eighth_day_eight_maids_a_milking>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <TestCaseFunction test_twelfth_day_twelve_drummers_drumming>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x00000153E39910A0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming
+            location: ('twelve_days_test.py', 140, 'TwelveDaysTest.test_twelfth_day_twelve_drummers_drumming')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session twelve-days exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=15 testscollected=15>
+        exitstatus: ExitCode.TESTS_FAILED
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x00000153E3B45FD0>
+          exitstatus: ExitCode.TESTS_FAILED
+          config: <_pytest.config.Config object at 0x00000153E39910A0>
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eighth_day_eight_maids_a_milking' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_eleventh_day_eleven_pipers_piping' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fifth_day_five_gold_rings' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_first_day_a_partridge_in_a_pear_tree' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_fourth_day_four_calling_birds' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_ninth_day_nine_ladies_dancing' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_first_three_verses_of_the_song' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_the_whole_song' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_recites_three_verses_from_the_middle_of_the_song' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_second_day_two_turtle_doves' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_seventh_day_seven_swans_a_swimming' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_sixth_day_six_geese_a_laying' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_tenth_day_ten_lords_a_leaping' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_third_day_three_french_hens' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'twelve_days_test.py::TwelveDaysTest::test_twelfth_day_twelve_drummers_drumming' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x00000153E39910A0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x00000153E39910A0>
+    finish pytest_unconfigure --> [] [hook]
